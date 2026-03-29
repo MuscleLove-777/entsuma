@@ -1,0 +1,95 @@
+baseURL = "https://musclelove-777.github.io/entsuma/"
+languageCode = "ja"
+defaultContentLanguage = "ja"
+title = "艶妻コレクション | 熟女・人妻AV厳選レビュー"
+theme = "PaperMod"
+paginate = 10
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+[sitemap]
+  changefreq = "daily"
+  priority = 0.5
+
+[params]
+  env = "production"
+  description = "熟女・人妻ジャンルのAV作品を毎日厳選レビュー。FANZAの最新作からシチュ別おすすめまで"
+  author = "艶妻コレクション編集部"
+  images = ["https://musclelove-777.github.io/entsuma/favicon.svg"]
+  keywords = ["熟女 AV おすすめ", "人妻 AV ランキング", "FANZA 熟女", "熟女 新作", "人妻 NTR", "四十路 AV", "五十路 AV", "美熟女 AV"]
+  defaultTheme = "dark"
+  ShowReadingTime = false
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = false
+  TocOpen = false
+  comments = false
+
+  [params.homeInfoParams]
+    Title = "艶妻コレクション"
+    Content = "熟女・人妻好きのための厳選レビューサイト。毎日更新、サンプル動画付き！"
+
+  [[params.socialIcons]]
+    name = "x-twitter"
+    url = "https://x.com/MuscleGirlLove7"
+
+  [[params.socialIcons]]
+    name = "linktree"
+    url = "https://linktr.ee/ILoveMyCats"
+
+[params.assets]
+  favicon = "favicon.svg"
+  favicon16x16 = "favicon.svg"
+  favicon32x32 = "favicon.svg"
+  apple_touch_icon = "favicon.svg"
+  safari_pinned_tab = "favicon.svg"
+
+[params.cover]
+  hidden = false
+  hiddenInList = false
+  hiddenInSingle = false
+  linkFullImages = true
+
+[params.fuseOpts]
+  isCaseSensitive = false
+  shouldSort = true
+  location = 0
+  distance = 1000
+  threshold = 0.4
+  minMatchCharLength = 0
+  keys = ["title", "permalink", "summary", "content"]
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    noClasses = false
+
+[[menus.main]]
+  name = "検索"
+  url = "/search/"
+  weight = 10
+
+[[menus.main]]
+  name = "カテゴリ"
+  url = "/categories/"
+  weight = 20
+
+[[menus.main]]
+  name = "タグ"
+  url = "/tags/"
+  weight = 30
+
+[[menus.main]]
+  name = "アーカイブ"
+  url = "/archives/"
+  weight = 40
