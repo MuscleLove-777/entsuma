@@ -16,7 +16,7 @@ buildExpired = false
 
 [services]
   [services.googleAnalytics]
-    ID = ""
+    ID = "G-6HJ43V2T34"
 
 [params]
 googleAnalyticsID = "G-YV53HTHVY2"
