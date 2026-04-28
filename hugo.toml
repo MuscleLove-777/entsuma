@@ -3,7 +3,8 @@ languageCode = "ja"
 defaultContentLanguage = "ja"
 title = "艶妻コレクション | 熟女・人妻AV厳選レビュー"
 theme = "PaperMod"
-paginate = 10
+[pagination]
+  pagerSize = 20
 
 enableRobotsTXT = true
 buildDrafts = false
