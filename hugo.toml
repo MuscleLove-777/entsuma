@@ -20,6 +20,8 @@ buildExpired = false
     ID = "G-6HJ43V2T34"
 
 [params]
+aiFaq = true
+aiFaqPlatform = "FANZA（DMM）"
 googleAnalyticsID = "G-YV53HTHVY2"
   canonicalURL = true
   env = "production"
